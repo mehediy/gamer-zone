@@ -201,3 +201,38 @@ a {
 .card-img img {
   width: 100%;
 }
+
+/* Categories Section */
+.categories {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  height: 20rem;
+  gap: 1rem;
+}
+
+.categories .cat {
+  border-radius: 50px;
+  background: #fff;
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem 1rem 0.5rem 0.5rem;
+  align-items: center;
+}
+
+.categories .cat span {
+  color: #0b0223;
+  font-weight: 600;
+}
+
+.categories .cat img {
+  display: block;
+  width: 3rem;
+}
