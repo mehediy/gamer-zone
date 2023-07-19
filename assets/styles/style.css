@@ -301,7 +301,8 @@ ul {
   align-items: center;
   justify-content: center;
   align-content: center;
-  height: 20rem;
+  height: auto;
+  padding: 3rem 0;
   gap: 1rem;
 }
 
@@ -319,6 +320,7 @@ ul {
 .categories .cat span {
   color: #0b0223;
   font-weight: 600;
+  font-size: 1rem;
 }
 
 .categories .cat img {
@@ -346,7 +348,8 @@ footer {
 }
 
 .footer-container {
-  height: 27rem;
+  height: auto;
+  padding: 4rem 0;
   min-width: 350px;
   display: flex;
   flex-direction: column;
