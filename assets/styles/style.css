@@ -204,6 +204,39 @@ ul {
 
 .card-img img {
   width: 100%;
+  display: block;
+}
+
+.card-img {
+  border-radius: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-img .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border: 2px solid #ff42a5;
+  background: #0b02236c;
+  border-radius: 1rem;
+  opacity: 0;
+  transition: 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-img .overlay p {
+  color: #ff42a5;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+  transition: 0.2s ease;
 }
 
 /* Features */
