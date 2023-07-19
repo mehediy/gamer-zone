@@ -230,7 +230,7 @@ ul {
   flex-direction: column;
 }
 
-.card-img .overlay p {
+.card-img .overlay p a {
   color: #ff42a5;
 }
 
@@ -338,6 +338,13 @@ ul {
 /* Footer */
 footer {
   background: #0b0223;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.footer-container {
   height: 27rem;
   display: flex;
   flex-direction: column;
